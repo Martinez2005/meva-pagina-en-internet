@@ -103,3 +103,37 @@ footer {
     display: block; 
     margin-bottom: 20px;
 }
+
+#habilitats {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.habilitat {
+    margin-bottom: 15px;
+}
+
+.habilitat-nom {
+    display: inline-block;
+    width: 100px; 
+}
+
+.barra-percentatge {
+    height: 20px;
+    background-color: #3498db;
+}
+
+#wireframes {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.imatges-wireframes img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}

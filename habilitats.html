@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacte - Victor</title>
+    <title>Habilitats - Victor</title>
     <link rel="stylesheet" href="estil.css">
 </head>
 <body>
-
     <header>
         <div class="container">
             <h1>Victor Martinez</h1>
@@ -24,25 +23,25 @@
         </div>
     </header>
 
-    <section id="Contacte" class="container">
-        <h2>Contacta amb mi</h2>
-        <p>Emplena el formulari de contacte o connecta amb mi a través de les xarxes socials.</p>
-
-        <form action="processar_formulari.php" method="post">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Missatge:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-
+    <section id="habilitats" class="container">
+        <h2>Habilitats</h2>
+        <div class="habilitat">
+            <span class="habilitat-nom">HTML</span>
+            <div class="barra-percentatge" style="width: 80%;"></div>
+            <span class="percentatge">80%</span>
+        </div>
+        <div class="habilitat">
+            <span class="habilitat-nom">CSS</span>
+            <div class="barra-percentatge" style="width: 75%;"></div>
+            <span class="percentatge">75%</span>
+        </div>
+        <div class="habilitat">
+            <span class="habilitat-nom">XML</span>
+            <div class="barra-percentatge" style="width: 95%;"></div>
+            <span class="percentatge">95%</span>
+        </div>
     </section>
-    
+
     <footer>
         <div class="container">
             <p>&copy; 2024 Victor Martinez. Tots els drets reservats.</p>
@@ -54,4 +53,5 @@
     </footer>
 </body>
 </html>
-
+    
+    
