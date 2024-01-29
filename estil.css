@@ -137,3 +137,8 @@ footer {
     height: auto;
     margin-bottom: 15px;
 }
+
+.imatgecentrada{
+    display: flex;
+    justify-content: space-around;
+}
