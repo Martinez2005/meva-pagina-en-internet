@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.comentaris {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.nou-comentari-form {
+    margin-bottom: 20px;
+}
+
+.nou-comentari-form label,
+.nou-comentari-form textarea,
+.nou-comentari-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nou-comentari-form textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.llista-comentaris {
+    list-style: none;
+    padding: 0;
+}
+
+.llista-comentaris li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.llista-comentaris strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <section class="comentaris">
+        <h2>Comentaris</h2>
+
+        <form action="#" method="post" class="nou-comentari-form">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+    
+            <label for="comentari">Comentari:</label>
+            <textarea id="comentari" name="comentari" required></textarea>
+    
+            <button type="submit">Afegir Comentari</button>
+        </form>
+    </section><br>
+    <a href="../exerciciscss.html">Tornar a les activitats</a>
+</body>
+</html>
