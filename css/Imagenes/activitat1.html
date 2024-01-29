@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .chat-container {
+            width: 300px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .chat-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .message {
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .avatar img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .info {
+            overflow: hidden;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #888;
+            font-size: 0.8em;
+        }
+
+        .message-text {
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .my-message {
+            background-color: #e0f7fa;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <ul class="chat-list">
+            <li class="message">
+                <div class="instagram">
+                    <img src="img/instagram.png" alt="Instagram" width="50" height="50">
+                </div>
+                <div class="info">
+                    <div class="name">Persona 1</div>
+                    <div class="date">5 de març</div>
+                    <div class="message-text">Bones, que tal?</div>
+                </div>
+            </li>
+
+            <li class="message my-message">
+                <div class="youtube">
+                    <img src="img/youtube.png" alt="Youtube" width="50" height="50">
+                </div>
+                <div class="info">
+                    <div class="name">Persona 2</div>
+                    <div class="date">22 d'abril</div>
+                    <div class="message-text">Hola, com stas?</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
