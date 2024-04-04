@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center ;
+    padding: 20px 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-inline: 150px;
+}
+.container img{
+    border-radius: 15%;
+}
