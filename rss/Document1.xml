@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+   <title>Victor: Canal de notícies d'Informàtica</title>
+      <link>https://elpais.com/noticias/informatica/</link>
+    <item>
+      <title>David Cuartielles: “Yo no quería que mi hija aprendiera Excel en clase de Tecnología”</title>
+      <link>https://elpais.com/tecnologia/2024-03-19/david-cuartielles-yo-no-queria-que-mi-hija-aprendiera-excel-en-clase-de-tecnologia.html</link>
+      <author>Dani Cordero</author>
+      <pubDate>Barcelona - 19 MAR 2024 - 05:20CET</pubDate>
+    </item>
+    <item>
+      <title>¿Es sostenible convertirse en un profesional de los ‘eSports’?</title>
+      <link>https://elpais.com/economia/formacion/2024-03-15/es-sostenible-convertirse-en-un-profesional-de-los-esports.html</link>
+      <author>Nacho Meneses</author>
+      <pubDate>Madrid - 15 MAR 2024 - 10:10CET</pubDate>
+    </item>
+    <item>
+      <title>Aronián exprime sus piezas</title>
+      <link>https://elpais.com/ajedrez/videos/2024-03-11/belleza-comprensible-para-humanos.html</link>
+      <author>Leontxo García</author>
+      <pubDate>Irún - 11 MAR 2024 - 18:00CET</pubDate>
+    </item>
+</channel>
+</rss>
